@@ -23,6 +23,7 @@
                 <li>
                     <form action="{% url 'search' %}" method="get" class="form-inline my-2">
                         <input name="query"  class="form-control" type="text" placholder="Paieška">
+                        <button class="btn btn-info" type="submit">Ieškoti</button>
                     </form>
                 </li>
 

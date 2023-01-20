@@ -4,8 +4,8 @@ from .models import Author, Genre, Book, BookInstance
 
 class BookInstanceInline(admin.TabularInline):
     model = BookInstance
-    readonly_fields = ('id',)
-    can_delete = False
+    # readonly_fields = ('id',)
+    # can_delete = False
     extra = 0
 
 
